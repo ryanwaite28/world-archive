@@ -17,13 +17,8 @@ from threading import Timer
 from bson.objectid import ObjectId
 import pymongo
 from pymongo import MongoClient
-client = MongoClient('mongodb://localhost:27017/')
 
-db = client['app-database']
 
-collections = {
-    'users': db.users
-}
 
 
 # --- --- -- --- --- #
@@ -55,6 +50,7 @@ def login_required(f):
 @app.route("/", methods=['GET'])
 def welcomePage():
     if request.method == 'GET':
+        print db
         return render('welcome.html')
 
 
