@@ -1,0 +1,82 @@
+/* --- Grand CSS --- */
+
+.row {
+  position: relative;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.parallax-bar {
+    height: 75vh;
+    padding: 30vh 10px;
+    background: transparent;
+}
+
+.dim-1 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0.6;
+}
+.dim-2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0.85;
+}
+.ul-raw {
+  padding: 0px;
+  margin: 0px;
+}
+.ul-raw li {
+  list-style: none;
+}
+
+.brd-1 {
+  border: 1px solid black;
+}
+.brd-b-1 {
+  border-bottom: 1px solid black;
+}
+.text-bold {
+  font-weight: bold;
+}
+.emp-2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 825px;
+    max-width: 95%;
+    padding: 25px 0px;
+    display: block;
+    margin: auto;
+}
+.spacr-1 {
+  width: 825px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+.row-padd-1 {
+  padding: 10vh 0px;
+}
+.box-sdw-1 {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+.text-sdw-1 {
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.text-white {
+  color: white;
+}
+.bg-trans {
+  background: transparent;
+}

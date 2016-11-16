@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>World Archive | Welcome!</title>
+    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="https://ryanwaite28.github.io/my-cdn/css/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="https://ryanwaite28.github.io/my-cdn/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="https://ryanwaite28.github.io/my-cdn/css/emerald.css"/>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/grand.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/welcome.css"/>
+    <link rel="icon" type="image/png" size="20x20" href="/static/img/ancient-icon-1.png"/>
+
+    <script src="https://ryanwaite28.github.io/my-cdn/js/jquery.js"></script>
+    <script src="https://ryanwaite28.github.io/my-cdn/js/bootstrap.js"></script>
+    <script src="https://ryanwaite28.github.io/my-cdn/js/parallax/parallax.min.js"></script>
+    <script src="https://ryanwaite28.github.io/my-cdn/js/angular.js"></script>
+    <script src="/static/js/apps/welcome-app.js"></script>
+  </head>
+
+  <body ng-app="welcomeApp" ng-controller="welcomeCtrl">
+
+    <!-- Top Bar -->
+
+    {% include "topbar-1.html" %}
+
+    <!-- Contents -->
+
+    <div id="main-contain" class="container-fluid">
+      <header class="row fill parallax-window transition" id="welcome-header" data-parallax="scroll" data-image-src="/static/img/ancient-map-2.jpg">
+        <div class="dim-2"></div>
+        <div class="col-md-12">
+          <h3 id="wh-top-text">World Archive</h3>
+          <p class="emp-2 text-white">
+            Search Time And History For People, Documents, Events, And More!
+          </p>
+        </div>
+      </header>
+
+      <div id="sp-bar" class="row brd-b-1">
+        <div class="col-md-12">
+          <div class="row-padd-1">
+            <h1 class="w-ht">Search People</h1>
+            <br>
+            <form id="sp-form" class="text-center">
+              <input type="text" name="fname" placeholder="First Name"/>
+              <input type="text" name="mname" placeholder="Middle Name (Or Initial)"/>
+              <input type="text" name="lname" placeholder="Last Name"/>
+              <br><br>
+              <input class="middlr transition btn btn-primary" type="button" value="Submit"/>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="bar-4" class="row brd-b-1 row-padd-1">
+        <div class="col-md-8">
+          <div class="">
+            <p class="emp-2" style="margin-top: 50px;">
+              World Archive is all about making historic information easily
+              available to everyone. Every person has a story; we believe that
+              should be saved and shared.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="">
+            <img class="middlr box-sdw-1 brd-1" src="/static/img/ancient-icon-1.png"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="row fill parallax-window parallax-bar transition" data-parallax="scroll" data-image-src="/static/img/ancient-map-3.jpg">
+        <div class="dim-1"></div>
+        <div class="col-md-12">
+          <p class="emp-2 text-white text-sdw-1">
+            You are a part of Time and History, which should not be forgotten.
+          </p>
+        </div>
+      </div>
+
+      <div id="sd-bar" class="row brd-b-1">
+        <div class="col-md-12">
+          <div class="row-padd-1">
+            <h1 class="w-ht">Search People</h1>
+            <br>
+            <form id="sd-form" class="text-center">
+              <input type="text" name="doc_name" placeholder="Document Name"/>
+              <select id="" name="doc_type">
+                <option value="text" selected>Text</option>
+                <option value="audio">Audio</option>
+                <option value="video">Video</option>
+                <option value="photo">Photo</option>
+              </select>
+              <br><br>
+              <input class="middlr transition btn btn-primary" type="button" value="Submit"/>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="row fill parallax-window parallax-bar transition" data-parallax="scroll" data-image-src="/static/img/ancient-map-3.jpg">
+        <div class="dim-1"></div>
+        <div class="col-md-12">
+          <p class="emp-2 text-white text-sdw-1">
+
+          </p>
+        </div>
+      </div>
+
+      <footer id="footer" class="row">
+        <div class="col-md-8">
+          <p>
+            Copyright 2016<br>
+            World Archive Inc.
+          </p>
+        </div>
+        <div class="col-md-2">
+          <ul class="ul-raw">
+            <li>People</li>
+            <li>Documents</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="ul-raw">
+            <li>Help</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>

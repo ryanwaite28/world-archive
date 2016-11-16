@@ -1,0 +1,144 @@
+/* --- Welcome Page CSS --- */
+body {
+  overflow-x: hidden;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.parallax-bar {
+    height: 75vh;
+    padding: 30vh 10px;
+    background: transparent;
+}
+
+#topbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 2px solid grey;
+}
+
+#tb-m, #tb-l, #tb-r {
+  display: inline-block;
+  width: 33.33%;
+  text-align: center;
+  color: white;
+}
+#tb-m {
+  float: none;
+}
+#tb-l {
+  float: left;
+}
+#tb-r {
+  float: right;
+}
+
+#top-label {
+  font-weight: bold;
+  margin: 0px;
+  padding: 17px 0px;
+}
+#top-icon {
+  height: 60px;
+  padding: 5px;
+  border-radius: 3px;
+}
+#top-icon:hover {
+  opacity: 0.8;
+}
+
+.top-links {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.top-links li {
+  display: inline-block;
+  padding: 0px 25px;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+}
+
+/* --- */
+
+#main-contain {
+  padding-top: 60px;
+}
+
+#welcome-header {
+  position: relative;
+  padding: 30vh 20px;
+}
+
+#wh-top-text {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 2px 4px black;
+  margin: 0px;
+  color: white;
+}
+
+.w-ht {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 2px 4px lightgrey;
+  margin: 0px;
+  color: black;
+}
+
+#sp-form input[type="text"] {
+  width: 350px;
+  max-width: 95%;
+  margin: 10px;
+  padding: 9px;
+  border-radius: 3px;
+  border: 1px solid black;
+  box-shadow: 0px 1px 2px grey;
+}
+#sp-form input[type="button"], #sp-form input[type="submit"] {
+  width: 125px;
+  max-width: 95%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid black;
+  box-shadow: 0px 1px 2px grey;
+}
+
+#sd-form input[type="text"] {
+  width: 350px;
+  max-width: 95%;
+  margin: 10px;
+  padding: 9px;
+  border-radius: 3px;
+  border: 1px solid black;
+  box-shadow: 0px 1px 2px grey;
+}
+#sd-form input[type="button"], #sd-form input[type="submit"] {
+  width: 125px;
+  max-width: 95%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid black;
+  box-shadow: 0px 1px 2px grey;
+}
+
+#sp-bar {
+  background: #fbfbfb;
+}
+
+#sd-bar {
+  background: #f2f2f2;
+}
+
+#footer {
+  background-color: black;
+  padding: 25px;
+  color: white;
+  min-height: 35vh;
+}
